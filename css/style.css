@@ -1,0 +1,485 @@
+:root {
+  --main-color: #2b70c9;
+  --white-color: #fff;
+  --background-color: #f7f7f7;
+  --outline-color: #cfd8dc;
+  --column-color: #e5e5e5;
+  --headertext-color: #37474f;
+  --addtocart-color: #3f484a;
+  --text-color: #191c1d;
+  --drop-shadow: drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.1));
+}
+
+body {
+  background-color: var(--background-color);
+  direction: rtl;
+  /* display: inline-flex; */
+}
+
+.body-div {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.body-div2 {
+  display: flex;
+}
+
+.div-teraphy_plan {
+  display: flex;
+  /* align-items: flex-end; */
+  /* justify-content: flex-end; */
+  order: 3;
+}
+
+.div-turn-rating {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.row1 {
+  display: inline-flex;
+}
+
+.therapy-plan {
+  /* order: 3; */
+  background-color: var(--white-color);
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  width: 276px;
+  height: 314px;
+  margin: 25px;
+  padding: 19px 13px 0px 15px;
+}
+
+.plan {
+  border-bottom: 1px solid var(--outline-color);
+  font-family: iransans;
+  color: var(--addtocart-color);
+  font-size: 12px;
+  font-weight: 400;
+  display: inline-flex;
+  width: 100%;
+}
+
+.plan > p {
+  font-family: iransans;
+  display: inline-flex;
+  margin-left: 60px;
+  color: var(--addtocart-color);
+  text-align: right;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.plan-price {
+  margin: 17px;
+}
+
+.total-plan {
+  display: inline-flex;
+}
+
+.total-plan > p {
+  text-align: right;
+  font-family: iransans;
+  display: inline-flex;
+  margin-left: 128px;
+  color: var(--addtocart-color);
+  text-align: right;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.total-price {
+  font-family: iransans;
+  display: inline-flex;
+  color: var(--addtocart-color);
+  text-align: right;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.add-button_2 {
+  background-color: var(--main-color);
+  color: var(--white-color);
+  font-family: iransans;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 16px;
+  padding: 10px 12px;
+  height: 36px;
+  max-width: 140px;
+  display: block;
+  margin-top: 20px;
+}
+
+/* .close-icon {
+} */
+
+.plan-text {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+/* ----------- */
+
+.turn-rating {
+  margin-top: 24px;
+  margin-right: 10px;
+  /* order: 1; */
+}
+
+.turn-rating_head {
+  display: inline-flex;
+  color: var(--text-color);
+  text-align: right;
+  font-family: IRANSans;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.right-arrow {
+  width: 17.5px;
+  height: 11.5px;
+  padding: 14.25px;
+  text-align: center;
+}
+
+.turn-rating_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 375px;
+  height: 183px;
+  border-radius: 16px;
+  background: var(--white-color);
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-name {
+  width: 336px;
+  height: 48px;
+  border-radius: 16px;
+  border: 1px solid var(--outline-color);
+  color: var(--text-color);
+  text-align: right;
+  font-kerning: none;
+  font-family: IRANSans;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.location {
+  width: 336px;
+  height: 48px;
+  border-radius: 16px;
+  border: 1px solid var(--outline-color);
+  color: var(--text-color);
+  text-align: right;
+  font-kerning: none;
+  font-family: IRANSans;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+fieldset {
+  min-width: 150px;
+  border-radius: 16px;
+  border: 1px solid var(--outline-color);
+  padding: 5px 15px 11px 15px;
+  display: inline-block;
+  width: 85%;
+  margin-right: 10px;
+}
+
+select {
+  margin-top: 15px;
+  width: 100%;
+  outline: none;
+  border: 0;
+  font-family: iransans;
+  font-weight: 300;
+  font-size: 12px;
+  margin-right: 10px;
+}
+legend {
+  font-family: iransans;
+  font-weight: 300;
+  font-size: 12px;
+  margin: -20px 0;
+}
+
+/* ----------- */
+
+.service-head {
+  /* order: 4; */
+  /* margin-top: -750px;   */
+  display: inline-flex;
+  width: 377px;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-bottom: 24px; */
+  margin-right: 10px;
+  margin-bottom: 24px;
+}
+
+.service-section {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5px;
+  padding: 16px;
+  background-color: var(--white-color);
+  border-radius: 16px;
+  width: 375px;
+  height: 327px;
+  padding: 7px;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+}
+
+.item {
+  font-size: 10px;
+  font-family: iransans;
+  font-weight: 300;
+  text-align: center;
+  border: 1px solid #2b70c9;
+  border-radius: 12px;
+  color: var(--main-color);
+  display: flex;
+  width: 56px;
+  height: 56px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.service-text {
+  color: var(--headertext-color);
+  font-family: iransans;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.add-button {
+  background-color: var(--main-color);
+  color: var(--white-color);
+  font-family: iransans;
+  font-size: 12px;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 16px;
+  padding: 10px 12px;
+  height: 36px;
+  width: 88px;
+  text-align: center;
+}
+
+/* --------------- */
+
+.teeth {
+  /* order: 3; */
+  background-color: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  width: 626px;
+  height: 433px;
+  margin: 26px;
+  color: var(--headertext-color);
+  text-align: center;
+  font-family: IRANSans;
+  font-size: 10px;
+  font-weight: 400;
+  padding: 18px 56px;
+  display: flex;
+  flex-flow: row wrap;
+  /* padding: 16px; */
+}
+
+.number-section {
+  display: inline-flex;
+  flex-flow: row wrap;
+  gap: 25px;
+}
+.picture-1 {
+  display: flex;
+  gap: 0;
+}
+
+steeth-picture {
+}
+
+.tooth-section {
+  display: flex;
+}
+
+.teeth-right_icon {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  /* height: 100px; */
+}
+
+.teeth-icon_mouth {
+  background-color: #bcd3ed;
+  border: 10px solid #bcd3ed;
+  border-radius: 100%;
+}
+
+.teeth-icon_up {
+  background-color: #bcd3ed;
+  border: 10px solid #bcd3ed;
+  border-radius: 100%;
+}
+
+.teeth-icon_down {
+  background-color: #bcd3ed;
+  border: 10px solid #bcd3ed;
+  border-radius: 100%;
+}
+
+.teeth-icon_teeth {
+  background-color: #2b70c9;
+  border: 10px solid #2b70c9;
+  border-radius: 100%;
+}
+
+.teeth-icon {
+  /* margin-bottom: -600px; */
+
+  width: 24px;
+  height: 24px;
+  margin: 5px;
+}
+
+/* -------------- */
+
+.table-div {
+  margin-right: 55px;
+}
+
+table {
+  /* margin: 10px; */
+  color: #3f484a;
+  text-align: right;
+  font-family: IRANSans;
+  font-size: 12px;
+  font-weight: 400;
+  margin-right: 21px;
+  /* border: none; */
+  border-collapse: collapse;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: var(--outline-color);
+}
+
+tbody > tr {
+  background-color: var(--white-color);
+  padding: 4px 12px;
+  justify-content: flex-end;
+  align-items: center;
+  /* gap: 16px; */
+  /* flex: 1 0 0; */
+  /* align-self: stretch; */
+}
+
+th {
+  padding-right: 12px;
+  text-align: right;
+}
+
+.therapy-select_table {
+  border-top-right-radius: 16px;
+  display: flex;
+  height: 47px;
+  width: 139px;
+  align-items: center;
+}
+
+.tooth-number_table {
+  height: 47px;
+  width: 133px;
+}
+
+.doctor-name_table {
+  height: 47px;
+  width: 133px;
+}
+
+.therapy-price_table {
+  width: 159px;
+}
+
+.therapy-none1_table {
+  width: 64px;
+}
+
+.therapy-none2_table {
+  width: 75px;
+  border-top-left-radius: 16px;
+}
+
+.therapy-table_item {
+  /* display: flex; */
+  height: 40px;
+  padding: 4px 12px;
+  align-items: center;
+  border-top: 1px solid var(--outline-color);
+}
+
+.therapy-select_icon {
+  text-align: center;
+  padding: 8px;
+  justify-self: center;
+  justify-content: center;
+  justify-items: center;
+  border-top: 1px solid var(--outline-color);
+}
+
+.therapy-select_button {
+  display: flex;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-button {
+  background-color: var(--white-color);
+  display: flex;
+  height: 32px;
+  padding: 8px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  border-radius: 12px;
+}
+
+.select-button_table {
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-top: 1px solid var(--outline-color);
+}
