@@ -16,6 +16,111 @@ body {
   /* display: inline-flex; */
 }
 
+.profile-photo > img {
+  height: 46px;
+  width: 46px;
+}
+
+p {
+  font-family: iransans;
+  font-weight: 400;
+}
+
+.profile-name {
+  font-size: 14px;
+}
+
+.profile-nickname {
+  font-size: 10px;
+}
+
+.profile {
+  padding: 13px 25px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  width: 1500px;
+}
+
+.name {
+  flex-direction: column;
+}
+
+.profile-down {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile--down {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding: 0px 6.25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 17px;
+  height: 19px;
+}
+
+.menu-icon {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-menu {
+  padding: 9px 21px;
+  display: inline-flex;
+  /* align-items: flex-end; */
+  /* justify-content: flex-end; */
+  float: right;
+  margin-top: 10px;
+}
+
+.booking {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.right-icon {
+  width: 17.5px;
+  height: 11.5px;
+}
+
+.booking-test {
+  display: inline-flex;
+  text-align: right;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.select-box {
+  background-color: var(--white-color);
+  height: 183px;
+  width: 375px;
+  border-radius: 16px;
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
 .body-div {
   display: flex;
   align-items: stretch;
